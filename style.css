@@ -165,3 +165,7 @@ html{
 .larsseit{
   font-family: Larsseit;
 }
+pre{
+  display: block;
+  white-space: pre-wrap;
+}
