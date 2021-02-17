@@ -1,0 +1,188 @@
+@font-face{
+  font-family: Moon Bold;
+  src: url(fonts/moonb.otf)
+}
+@font-face{
+  font-family: Moon Light;
+  src: url(fonts/moonl.otf)
+}
+@font-face{
+  font-family: Moon;
+  src: url(fonts/moon.otf)
+}
+@font-face{
+  font-family: Less Bold;
+  src: url(fonts/lessb.otf)
+}
+@font-face{
+  font-family: Less Light;
+  src: url(fonts/lessl.otf)
+}
+@font-face{
+  font-family: Less;
+  src: url(fonts/less.otf)
+}
+@font-face{
+  font-family: Larsseit;
+  src: url(fonts/larsseit.otf)
+}
+html{
+  scroll-behavior: smooth;
+}
+.content{
+  margin:0px;
+  padding:25px;
+  background-color: rgba(0,0,0,0.6);
+  font-family: Less;
+  font-size: 75px;
+  color: rgb(47,141,70);
+  text-transform: none;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+50% {opacity:0;}
+100% {opacity:1;}
+}
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+50% {opacity:0.75;}
+100% {opacity:1;}
+}
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+50% {opacity:0.75;}
+100% {opacity:1;}
+}
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+50% {opacity:0.75;}
+100% {opacity:1;}
+}
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+50% {opacity:0.75;}
+100% {opacity:1;}
+}
+.parallax-wrapper{
+  position: relative;
+  height:100vh;
+  margin:0px;
+  padding:0px;
+  background-image: url(https://cdn.abcotvs.com/dip/images/5582326_neighborhood-map-expectancy-TN-img.jpg?w=800&r=16%3A9);
+  background-size: cover;
+  animation: fadein ease 1s;
+  -webkit-animation: fadein ease 1s;
+}
+@keyframes fadein {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@-moz-keyframes fadein {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@-webkit-keyframes fadein {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@-o-keyframes fadein {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+@-ms-keyframes fadein {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+.bottombar{
+  animation: FadeIn ease;
+  -webkit-animation: FadeIn ease;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: fixed;
+  display:flex;
+  justify-content: space-around;
+  width:100%;
+  top:0;
+  background-color: rgba(0,0,0,0.75);
+  padding-top:10px;
+  padding-bottom:10px;
+  margin:0px;
+  z-index: 9;
+}
+@keyframes FadeIn {
+0% {opacity:0;}
+67% {opacity:0;}
+100% {opacity:1;}
+}
+@-moz-keyframes FadeIn {
+0% {opacity:0;}
+67% {opacity:0;}
+100% {opacity:1;}
+}
+@-webkit-keyframes FadeIn {
+0% {opacity:0;}
+67% {opacity:0;}
+100% {opacity:1;}
+}
+@-o-keyframes FadeIn {
+0% {opacity:0;}
+67% {opacity:0;}
+100% {opacity:1;}
+}
+@-ms-keyframes FadeIn {
+0% {opacity:0;}
+67% {opacity:0;}
+100% {opacity:1;}
+}
+.FadeIn {
+   -webkit-animation-name: FadeIn;
+   animation-name: FadeIn;
+}
+.moonl{
+  font-family: Moon Light;
+}
+.moon{
+  font-family: Moon;
+}
+.moonb{
+  font-family: Moon Bold;
+}
+.lessl{
+  font-family: Less Light;
+}
+.less{
+  font-family: Less;
+}
+.lessb{
+  font-family: Less Bold;
+}
+.larsseit{
+  font-family: Larsseit;
+}
+pre{
+  display: block;
+  white-space: pre-wrap;
+}
+a{
+  color: white;
+  font-family: Larsseit;
+  font-size: 30px;
+  padding: 0px;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  color: white;
+  font-family: Larsseit;
+  font-size: 30px;
+  padding: 0px;
+  text-decoration: underline white;
+  cursor: pointer;
+}
